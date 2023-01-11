@@ -60,6 +60,11 @@ h1 {
     font-size: 32px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
 p {
     text-align: center;
     font-size: 18px;
@@ -98,4 +103,14 @@ p {
     margin: auto;
     border: black 1px solid;
     border-radius: 10px;
+}
+
+.entrainement-info {
+    margin:20px 0;
+
+    padding: 5px;
+}
+
+.entrainement-info p {
+    margin: 15px 0;
 }
