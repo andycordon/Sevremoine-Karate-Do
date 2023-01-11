@@ -62,3 +62,9 @@ p {
     text-align: center;
     font-size: 18px;
 }
+
+.pic {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 15px;
+}
