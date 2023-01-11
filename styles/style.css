@@ -126,6 +126,12 @@ p {
     margin: 20px 0;
 }
 
+.kata-container a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
 .kata-container h3 {
     margin: 15px 0;
 }
