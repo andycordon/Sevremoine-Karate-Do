@@ -132,16 +132,123 @@ p {
     color: black;
 }
 
-.kata-container h3 {
+.kata-container h3, p{
     margin: 15px 0;
 }
+
 
 .kata-container img {
     width: 100%;
     border-radius: 0 0 10px 10px;
     margin: 0 0 -4px 0;
 }
+.kata-name {
+    margin: 20px;
+    color: #932623;
+}
+
+.kata-txt {
+    margin: 20px;
+}
 
 .kata-video {
-    width:100%
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #818181;
+
+}
+
+.kata-bloc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.kata-bloc-cont {
+    background-color: #A6A49A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 47%;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.kata-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.kata-tech {
+    font-size: 10px;
+    margin: 5px;
+}
+
+
+.return {
+    text-align: center;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.return a {
+    border: #000000 1px solid;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #932623;
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 400ms ease-in-out;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px #818181;
+
+}
+
+.return a:hover {
+    
+    background-color:#A6A49A;
+    color: black;
+    border: #ededed 1px solid;
+
+}
+
+.fleche-return {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: -7px 0 0 0;
+}
+.fleche-return a {
+    border: #000000 1px solid;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #932623;
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 400ms ease-in-out;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px #818181;
+}
+.fleche-return a:hover {
+    
+    background-color:#A6A49A;
+    color: black;
+    border: #ededed 1px solid;
+
 }
