@@ -104,7 +104,6 @@ p {
 
 .entrainement-info {
     margin:20px 0;
-
     padding: 5px;
 }
 
@@ -315,4 +314,21 @@ footer ul {
     height: 300px;
     margin: 10px 0;
     border-radius: 10px;
+}
+
+.prof article{
+    background-color: #A6A49A;
+   border-radius: 10px;
+   border: 1px solid black;
+   margin: 10px 0 20px 0;
+   box-shadow: 3px 3px 3px #818181;
+
+}
+
+.prof img{
+    width: 100%;
+}
+
+.prof h2{
+    margin: 10px 0;
 }
