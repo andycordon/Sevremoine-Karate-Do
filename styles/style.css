@@ -14,6 +14,7 @@ body {
     margin: 5px;
 }
 
+
 .logo {
     border-radius: 15px;
     border: #000000 1px solid;
@@ -24,6 +25,7 @@ body {
 nav {
     text-align: center;
     margin: 10px 0 20px 0;
+    list-style: none;
   }
   
 nav li {
