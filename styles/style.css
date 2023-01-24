@@ -83,36 +83,32 @@ p {
     margin: 15px 0;
 }
 
-.kata-container{
-    background-color: #A6A49A;
+
+.kata-container a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #A6A49A;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #818181;
-    margin: 20px 0;
-}
-
-.kata-container:hover{
-    background-color: #932623;
-    transform: rotate(360deg);
-    transition: all 0.6s cubic-bezier(.62,.43,.35,1.47);
-}
-
-.kata-container a{
+    margin: 10px 0;
     text-decoration: none;
     text-align: center;
     color: black;
 }
+
 .kata-container a:hover{
+    background-color: #932623;
+    transform: rotate(2deg);
+    transition: all 0.6s cubic-bezier(.62,.43,.35,1.47);
     color: white;
 }
 
-.kata-container h3, p{
-    margin: 15px 0;
-}
 
+.kata-container h3, p{
+   margin: 10px 0px;
+}
 
 .kata-container img {
     width: 100%;
