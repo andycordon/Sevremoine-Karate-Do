@@ -42,6 +42,15 @@ p {
     font-size: 18px;
 }
 
+.accueil h2{
+ margin: 10px 0 0 0;
+}
+
+.accueil img {
+    border: 1px solid black;
+    height: 333px;
+}
+
 .pic {
     width: 100%;
     margin: 10px 0 0 0;
