@@ -100,7 +100,7 @@ nav a {
   transform: scale(1);
   border: 1px solid black;
   margin: 3px 0;
-  width: 97%;
+  width: 97.3%;
 }
 
 #check:checked ~ nav a:hover {
