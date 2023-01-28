@@ -201,7 +201,7 @@ article a img:hover{
     transform: rotate(360deg);
     transition: all 0.4s cubic-bezier(.22,.43,.35,1.5);
     border-radius: 100%;
-    border: 1px black solid; 
+    border: 5px black solid; 
     box-shadow: none;
 }
 
