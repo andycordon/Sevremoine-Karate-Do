@@ -262,7 +262,9 @@ article a img:hover{
    border: 1px solid black;
    border-radius: 10px;
    height: 50px;
-   margin: 20px auto;
+   font-size: 22px;
+   margin: 20px 0;
+   font-weight: 600;
 
 }
 .return-button:hover{
