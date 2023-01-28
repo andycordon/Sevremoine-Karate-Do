@@ -195,7 +195,7 @@ article a img {
 }
 article a img:hover {
   transform: rotate(360deg);
-  transition: all 0.4s cubic-bezier(0.22, 0.43, 0.35, 1.5);
+  transition: all 1200ms cubic-bezier(0.22, 0.43, 0.35, 1.5);
   border-radius: 100%;
   border: 5px black solid;
   box-shadow: none;
@@ -262,6 +262,7 @@ article a img:hover {
   font-size: 22px;
   margin: 20px 0;
   font-weight: 600;
+  box-shadow: -3px 3px 3px #818181;
 }
 .return-button:hover {
   transition: all 400ms ease-in-out;
@@ -284,6 +285,10 @@ iframe {
   .logo {
     width: 50%;
   }
+/*Desktop style*/
 }
 @media (min-width: 992px) {
+  body {
+    color:#ededed;
+  }
 }
