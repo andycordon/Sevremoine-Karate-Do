@@ -33,7 +33,6 @@ body {
   transition: all 0.2s ease-in;
   padding-top: 8px;
   line-height: 8px;
-  text-align: left;
   z-index: 201;
   border: 1px solid black;
   border-radius: 10px;
@@ -69,8 +68,10 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 0;
   margin-left: -10px;
   padding-left: 10px;
+  margin-top: 4px;
   width: 100%;
 }
 #check:checked ~ nav {
@@ -311,7 +312,7 @@ iframe {
     padding: 0 5px 0 0;
   }
   nav {
-    margin-bottom: -213px;
+    margin-bottom: -3px;
     margin-left: -205px;
     padding-left: 205px;
     width: 100%;
