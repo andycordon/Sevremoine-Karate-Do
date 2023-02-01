@@ -386,28 +386,63 @@ iframe {
 
 /*Desktop style*/
 @media (min-width: 1024px) {
-  header {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-auto-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-gap: 0px;
+  .button, br {
+    display: none;
   }
 
   a {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-
   .title-tab-desktop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-    grid-column: 3/9;
-    grid-row: 1/2;
-    margin-bottom: 50px;
+    grid-column: 2/9;
+    grid-row: 1/1;
+    margin-bottom: 0;
   }
+  .menu {
+    grid-column: 1/9;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    margin:0px 0 65px 0 ;
+    padding: 0 auto;
+  }
+  
+  nav a {
+    opacity: 1;
+    transform: scale(1);
+    height: 50px;
+    background-color: #932623;
+    color: white;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 10px 0;
+    box-shadow: 3px 3px 3px #818181;
+    width: 100%;
+  }
+
+  nav a:hover{
+    background-color: #a6a49a;
+    border: 1px solid #ededed;
+    color: black;
+    box-shadow: none;
+  }
+.menu h1 {
+  margin-top: 60px;
+  width: 30%;
+  border: none;
+}
+
+.fa-facebook {
+  margin: 20px 0 20px 10px;
+}
 
 }
