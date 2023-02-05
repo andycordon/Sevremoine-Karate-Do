@@ -392,7 +392,7 @@ iframe {
   grid-row: 3;
   border: none;
   margin-bottom: -110px;
-  position: absolute;
+  position: relative;
 }
  
   nav {
