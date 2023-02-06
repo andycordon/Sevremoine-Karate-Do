@@ -203,6 +203,7 @@ article a img:hover {
   height: 365px;
   border: 1px solid black;
   border-radius: 10px;
+  box-shadow: -3px 3px 3px #818181;
 }
 
 .icon-contact-container p {
@@ -425,12 +426,6 @@ iframe {
     box-shadow: none;
   }
 
-
-
-
-
-
-
 .tab-bienvenu {
   display: grid;
   grid-template-columns:0.5fr 0.5fr;
@@ -520,7 +515,6 @@ iframe {
   width: 20%;
 }
 .desktop-exp-kata {
-  /* background-color: red; */
   display: grid;
   grid-template-columns:0.6fr 0.4fr;
   grid-auto-rows: 0.1fr 1.8fr 0.1fr;
@@ -531,7 +525,6 @@ iframe {
   grid-column: 2;
   grid-row: 1;
   
-
 }
 .desktop-exp-kata p{
   grid-column: 2;
@@ -546,7 +539,17 @@ iframe {
   grid-column: 2;
   grid-row: 3;
   width: 50%;
-
 }
-
+.desk-flex {
+  display: flex;
+}
+.desk-flex-section{
+  width: 100%;
+}
+.desk-flex-section article{
+  width: 100%;
+}
+.desk-margin {
+  margin-top: 60px;
+}
 }
