@@ -370,6 +370,13 @@ iframe {
   .button, .tab-bienvenu br{
     display: none;
   }
+  html {
+    background-color: #0c1019;
+  }
+  body {
+    border-radius: 10px;
+
+  }
 
   header {
     display: grid;
