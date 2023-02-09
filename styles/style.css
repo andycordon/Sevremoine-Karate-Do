@@ -323,7 +323,12 @@ iframe {
     margin-bottom: -207px;
     margin-left: -205px;
     padding-left: 205px;
-    width: 100%;
+    max-width: 700px;
+  }
+  
+  nav a {
+    transform-origin: -200px -200px;
+
   }
 
   footer ul {
@@ -408,6 +413,8 @@ iframe {
     display: flex;
     justify-content: space-around;
     position: relative;
+    max-width: 100%;
+
   }
   
   nav a {
@@ -454,6 +461,10 @@ iframe {
   grid-column: 2;
   grid-row: 1/2;
   margin: 40px 0 0 0;
+}
+
+.tab-bienvenu br {
+  display: none;
 }
 
 .tab-flex article {
