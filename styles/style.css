@@ -105,6 +105,12 @@ nav a {
   color: black;
   border: 1px solid #ededed;
 }
+
+.menu-active {
+  background-color: white;
+  color: #932623;
+}
+
 footer {
   background-color: #0c1019;
   border-radius: 10px;
@@ -463,7 +469,7 @@ iframe {
   margin: 40px 0 0 0;
 }
 
-.tab-bienvenu br {
+.tab-bienvenu h2 br {
   display: none;
 }
 
