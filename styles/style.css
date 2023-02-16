@@ -322,6 +322,7 @@ iframe {
     grid-column: 1/7;
     grid-row: 2;
     margin: -68px 0 0px 0px;
+    height: 0;
   }
   nav {
     width: 75.6%;
